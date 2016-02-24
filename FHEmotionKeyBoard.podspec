@@ -93,15 +93,9 @@ Pod::Spec.new do |s|
 
   
   s.subspec 'FHEmotionKeyBoard' do |ss|   
-    ss.source_files = 'FHEmotionKeyBoardDemo/FHEmotionKeyBoard/**/*.swift'
+    ss.source_files = ['FHEmotionKeyBoardDemo/FHEmotionKeyBoard/**/*.swift','FHEmotionKeyBoardDemo/FHKeyboardToolView/*.swift']
     ss.frameworks = 'UIKit'
   end
-
-  s.subspec 'FHEmotionKeyBoard' do |ss|   
-    ss.source_files = 'FHEmotionKeyBoardDemo/FHKeyboardToolView/*.swift'
-    ss.frameworks = 'UIKit'
-  end
-
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
