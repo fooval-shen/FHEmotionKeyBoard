@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A9FEB141C7D492200210E37 /* board_emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A9FEB111C7D492200210E37 /* board_emoji.png */; };
+		3A9FEB151C7D492200210E37 /* board_emoji@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A9FEB121C7D492200210E37 /* board_emoji@2x.png */; };
+		3A9FEB161C7D492200210E37 /* board_emoji@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A9FEB131C7D492200210E37 /* board_emoji@3x.png */; };
+		3AA439681C76F79B00EC2D1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA439671C76F79B00EC2D1E /* AppDelegate.swift */; };
+		3AA4396A1C76F79B00EC2D1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA439691C76F79B00EC2D1E /* ViewController.swift */; };
+		3AA4396D1C76F79B00EC2D1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AA4396B1C76F79B00EC2D1E /* Main.storyboard */; };
+		3AA4396F1C76F79B00EC2D1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA4396E1C76F79B00EC2D1E /* Assets.xcassets */; };
+		3AA439721C76F79B00EC2D1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AA439701C76F79B00EC2D1E /* LaunchScreen.storyboard */; };
+		3AA4397D1C76F80400EC2D1E /* FHEmotionKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4397C1C76F80400EC2D1E /* FHEmotionKeyboardView.swift */; };
+		3AA4397F1C770ADF00EC2D1E /* FHEmotionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4397E1C770ADF00EC2D1E /* FHEmotionModel.swift */; };
+		3AA439821C781AC200EC2D1E /* emotion1.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3AA439801C781AC200EC2D1E /* emotion1.bundle */; };
+		3AA439831C781AC200EC2D1E /* emotion2.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3AA439811C781AC200EC2D1E /* emotion2.bundle */; };
+		3AAD830F1C7ADEF00092E328 /* FHEmotionExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAD830E1C7ADEF00092E328 /* FHEmotionExtensionView.swift */; };
+		3AAD83121C7AF3510092E328 /* MQEmotionAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAD83111C7AF3510092E328 /* MQEmotionAttachment.swift */; };
+		3AB87D751C7BEC3A00CFC53D /* faceBoard_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB87D721C7BEC3A00CFC53D /* faceBoard_delete.png */; };
+		3AB87D761C7BEC3A00CFC53D /* faceBoard_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB87D731C7BEC3A00CFC53D /* faceBoard_delete@2x.png */; };
+		3AB87D771C7BEC3A00CFC53D /* faceBoard_delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB87D741C7BEC3A00CFC53D /* faceBoard_delete@3x.png */; };
+		3AB87D7B1C7C430D00CFC53D /* FHKeyboardToolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB87D7A1C7C430D00CFC53D /* FHKeyboardToolView.swift */; };
+		3AB87D7F1C7C4C9000CFC53D /* board_system.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB87D7C1C7C4C9000CFC53D /* board_system.png */; };
+		3AB87D801C7C4C9000CFC53D /* board_system@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB87D7D1C7C4C9000CFC53D /* board_system@2x.png */; };
+		3AB87D811C7C4C9000CFC53D /* board_system@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB87D7E1C7C4C9000CFC53D /* board_system@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A9FEB111C7D492200210E37 /* board_emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board_emoji.png; sourceTree = "<group>"; };
+		3A9FEB121C7D492200210E37 /* board_emoji@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "board_emoji@2x.png"; sourceTree = "<group>"; };
+		3A9FEB131C7D492200210E37 /* board_emoji@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "board_emoji@3x.png"; sourceTree = "<group>"; };
+		3AA439641C76F79B00EC2D1E /* FHEmotionKeyBoardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FHEmotionKeyBoardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AA439671C76F79B00EC2D1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AA439691C76F79B00EC2D1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AA4396C1C76F79B00EC2D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AA4396E1C76F79B00EC2D1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AA439711C76F79B00EC2D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AA439731C76F79B00EC2D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AA4397C1C76F80400EC2D1E /* FHEmotionKeyboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHEmotionKeyboardView.swift; sourceTree = "<group>"; };
+		3AA4397E1C770ADF00EC2D1E /* FHEmotionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHEmotionModel.swift; sourceTree = "<group>"; };
+		3AA439801C781AC200EC2D1E /* emotion1.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = emotion1.bundle; sourceTree = "<group>"; };
+		3AA439811C781AC200EC2D1E /* emotion2.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = emotion2.bundle; sourceTree = "<group>"; };
+		3AAD830E1C7ADEF00092E328 /* FHEmotionExtensionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHEmotionExtensionView.swift; sourceTree = "<group>"; };
+		3AAD83111C7AF3510092E328 /* MQEmotionAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MQEmotionAttachment.swift; sourceTree = "<group>"; };
+		3AB87D721C7BEC3A00CFC53D /* faceBoard_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faceBoard_delete.png; sourceTree = "<group>"; };
+		3AB87D731C7BEC3A00CFC53D /* faceBoard_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "faceBoard_delete@2x.png"; sourceTree = "<group>"; };
+		3AB87D741C7BEC3A00CFC53D /* faceBoard_delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "faceBoard_delete@3x.png"; sourceTree = "<group>"; };
+		3AB87D7A1C7C430D00CFC53D /* FHKeyboardToolView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHKeyboardToolView.swift; sourceTree = "<group>"; };
+		3AB87D7C1C7C4C9000CFC53D /* board_system.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board_system.png; sourceTree = "<group>"; };
+		3AB87D7D1C7C4C9000CFC53D /* board_system@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "board_system@2x.png"; sourceTree = "<group>"; };
+		3AB87D7E1C7C4C9000CFC53D /* board_system@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "board_system@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AA439611C76F79B00EC2D1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AA4395B1C76F79B00EC2D1E = {
+			isa = PBXGroup;
+			children = (
+				3AA439661C76F79B00EC2D1E /* FHEmotionKeyBoardDemo */,
+				3AA439651C76F79B00EC2D1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AA439651C76F79B00EC2D1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AA439641C76F79B00EC2D1E /* FHEmotionKeyBoardDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AA439661C76F79B00EC2D1E /* FHEmotionKeyBoardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3AB87D791C7C42FD00CFC53D /* FHKeyboardToolView */,
+				3AB87D721C7BEC3A00CFC53D /* faceBoard_delete.png */,
+				3AB87D731C7BEC3A00CFC53D /* faceBoard_delete@2x.png */,
+				3AB87D741C7BEC3A00CFC53D /* faceBoard_delete@3x.png */,
+				3AB87D7C1C7C4C9000CFC53D /* board_system.png */,
+				3AB87D7D1C7C4C9000CFC53D /* board_system@2x.png */,
+				3AB87D7E1C7C4C9000CFC53D /* board_system@3x.png */,
+				3A9FEB111C7D492200210E37 /* board_emoji.png */,
+				3A9FEB121C7D492200210E37 /* board_emoji@2x.png */,
+				3A9FEB131C7D492200210E37 /* board_emoji@3x.png */,
+				3AA439791C76F7AF00EC2D1E /* FHEmotionKeyBoard */,
+				3AA439671C76F79B00EC2D1E /* AppDelegate.swift */,
+				3AA439691C76F79B00EC2D1E /* ViewController.swift */,
+				3AA4396B1C76F79B00EC2D1E /* Main.storyboard */,
+				3AA4396E1C76F79B00EC2D1E /* Assets.xcassets */,
+				3AA439701C76F79B00EC2D1E /* LaunchScreen.storyboard */,
+				3AA439801C781AC200EC2D1E /* emotion1.bundle */,
+				3AA439811C781AC200EC2D1E /* emotion2.bundle */,
+				3AA439731C76F79B00EC2D1E /* Info.plist */,
+			);
+			path = FHEmotionKeyBoardDemo;
+			sourceTree = "<group>";
+		};
+		3AA439791C76F7AF00EC2D1E /* FHEmotionKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				3AAD83101C7AF34C0092E328 /* Helper */,
+				3AA4397A1C76F7C300EC2D1E /* Model */,
+				3AA4397B1C76F7C300EC2D1E /* View */,
+			);
+			path = FHEmotionKeyBoard;
+			sourceTree = "<group>";
+		};
+		3AA4397A1C76F7C300EC2D1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3AA4397E1C770ADF00EC2D1E /* FHEmotionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3AA4397B1C76F7C300EC2D1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3AA4397C1C76F80400EC2D1E /* FHEmotionKeyboardView.swift */,
+				3AAD830E1C7ADEF00092E328 /* FHEmotionExtensionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3AAD83101C7AF34C0092E328 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3AAD83111C7AF3510092E328 /* MQEmotionAttachment.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		3AB87D791C7C42FD00CFC53D /* FHKeyboardToolView */ = {
+			isa = PBXGroup;
+			children = (
+				3AB87D7A1C7C430D00CFC53D /* FHKeyboardToolView.swift */,
+			);
+			path = FHKeyboardToolView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AA439631C76F79B00EC2D1E /* FHEmotionKeyBoardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AA439761C76F79B00EC2D1E /* Build configuration list for PBXNativeTarget "FHEmotionKeyBoardDemo" */;
+			buildPhases = (
+				3AA439601C76F79B00EC2D1E /* Sources */,
+				3AA439611C76F79B00EC2D1E /* Frameworks */,
+				3AA439621C76F79B00EC2D1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FHEmotionKeyBoardDemo;
+			productName = FHEmotionKeyBoardDemo;
+			productReference = 3AA439641C76F79B00EC2D1E /* FHEmotionKeyBoardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AA4395C1C76F79B00EC2D1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = shenfh;
+				TargetAttributes = {
+					3AA439631C76F79B00EC2D1E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3AA4395F1C76F79B00EC2D1E /* Build configuration list for PBXProject "FHEmotionKeyBoardDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AA4395B1C76F79B00EC2D1E;
+			productRefGroup = 3AA439651C76F79B00EC2D1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AA439631C76F79B00EC2D1E /* FHEmotionKeyBoardDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AA439621C76F79B00EC2D1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB87D751C7BEC3A00CFC53D /* faceBoard_delete.png in Resources */,
+				3A9FEB141C7D492200210E37 /* board_emoji.png in Resources */,
+				3AB87D7F1C7C4C9000CFC53D /* board_system.png in Resources */,
+				3A9FEB151C7D492200210E37 /* board_emoji@2x.png in Resources */,
+				3AA439721C76F79B00EC2D1E /* LaunchScreen.storyboard in Resources */,
+				3AA439831C781AC200EC2D1E /* emotion2.bundle in Resources */,
+				3AA4396F1C76F79B00EC2D1E /* Assets.xcassets in Resources */,
+				3A9FEB161C7D492200210E37 /* board_emoji@3x.png in Resources */,
+				3AB87D761C7BEC3A00CFC53D /* faceBoard_delete@2x.png in Resources */,
+				3AB87D801C7C4C9000CFC53D /* board_system@2x.png in Resources */,
+				3AA4396D1C76F79B00EC2D1E /* Main.storyboard in Resources */,
+				3AB87D771C7BEC3A00CFC53D /* faceBoard_delete@3x.png in Resources */,
+				3AB87D811C7C4C9000CFC53D /* board_system@3x.png in Resources */,
+				3AA439821C781AC200EC2D1E /* emotion1.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AA439601C76F79B00EC2D1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AA4396A1C76F79B00EC2D1E /* ViewController.swift in Sources */,
+				3AA4397F1C770ADF00EC2D1E /* FHEmotionModel.swift in Sources */,
+				3AAD83121C7AF3510092E328 /* MQEmotionAttachment.swift in Sources */,
+				3AAD830F1C7ADEF00092E328 /* FHEmotionExtensionView.swift in Sources */,
+				3AB87D7B1C7C430D00CFC53D /* FHKeyboardToolView.swift in Sources */,
+				3AA439681C76F79B00EC2D1E /* AppDelegate.swift in Sources */,
+				3AA4397D1C76F80400EC2D1E /* FHEmotionKeyboardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3AA4396B1C76F79B00EC2D1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AA4396C1C76F79B00EC2D1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AA439701C76F79B00EC2D1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AA439711C76F79B00EC2D1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AA439741C76F79B00EC2D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AA439751C76F79B00EC2D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AA439771C76F79B00EC2D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FHEmotionKeyBoardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenfh.emotionKeyboard.FHEmotionKeyBoardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3AA439781C76F79B00EC2D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FHEmotionKeyBoardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenfh.emotionKeyboard.FHEmotionKeyBoardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AA4395F1C76F79B00EC2D1E /* Build configuration list for PBXProject "FHEmotionKeyBoardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA439741C76F79B00EC2D1E /* Debug */,
+				3AA439751C76F79B00EC2D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AA439761C76F79B00EC2D1E /* Build configuration list for PBXNativeTarget "FHEmotionKeyBoardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA439771C76F79B00EC2D1E /* Debug */,
+				3AA439781C76F79B00EC2D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AA4395C1C76F79B00EC2D1E /* Project object */;
+}

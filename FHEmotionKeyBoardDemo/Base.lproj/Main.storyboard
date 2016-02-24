@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FHEmotionKeyBoardDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bbW-LX-TJ1">
+                                <rect key="frame" x="29" y="70" width="316" height="121"/>
+                                <color key="backgroundColor" red="0.38167585869999998" green="1" blue="0.5392530673" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="121" id="Fg2-JB-68e"/>
+                                    <constraint firstAttribute="width" constant="316" id="bLM-fM-FXt"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="121" id="wo5-s7-zsx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="wo5-s7-zsx"/>
+                                    </mask>
+                                </variation>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFM-5n-URq">
+                                <rect key="frame" x="164" y="32" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YQX-Hk-CHt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="xFM-5n-URq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="32" id="IZ7-ZC-Dyi"/>
+                            <constraint firstItem="bbW-LX-TJ1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IlP-Cm-vk1"/>
+                            <constraint firstItem="bbW-LX-TJ1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="13" id="Qmz-by-Pbk"/>
+                            <constraint firstItem="bbW-LX-TJ1" firstAttribute="top" secondItem="xFM-5n-URq" secondAttribute="bottom" constant="8" symbolic="YES" id="RI9-OX-qwg"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bbW-LX-TJ1" secondAttribute="bottom" constant="476" id="RzT-kB-H01"/>
+                            <constraint firstItem="xFM-5n-URq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bFx-6M-mMt"/>
+                            <constraint firstItem="bbW-LX-TJ1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="70" id="iPf-DK-Dyw"/>
+                            <constraint firstItem="bbW-LX-TJ1" firstAttribute="centerX" secondItem="xFM-5n-URq" secondAttribute="centerX" id="nan-aU-AlI"/>
+                            <constraint firstItem="bbW-LX-TJ1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pki-ol-wM2"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="IlP-Cm-vk1"/>
+                                <exclude reference="Qmz-by-Pbk"/>
+                                <exclude reference="RI9-OX-qwg"/>
+                                <exclude reference="nan-aU-AlI"/>
+                                <exclude reference="RzT-kB-H01"/>
+                            </mask>
+                        </variation>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="rkg-Ft-m6h" appends="YES" id="amz-CV-GBs"/>
+                        </connections>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="fhTextField" destination="bbW-LX-TJ1" id="PCS-jv-yLh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="rkg-Ft-m6h">
+                    <connections>
+                        <action selector="BackgroundViewAction:" destination="BYZ-38-t0r" id="SP3-6p-MK0"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="589.5" y="418.5"/>
+        </scene>
+    </scenes>
+</document>
